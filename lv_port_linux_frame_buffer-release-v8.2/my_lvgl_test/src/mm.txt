@@ -1,0 +1,12 @@
+    // 添加确认下载按钮
+    lv_obj_t * confirm_btn = lv_btn_create(file_list_widget);
+    lv_obj_align(confirm_btn, LV_ALIGN_CENTER, 0, 250); // 设置位置在列表下方
+    lv_obj_t * label = lv_label_create(confirm_btn);
+    // 设置按钮的大小为40px * 40px
+    lv_obj_set_size(confirm_btn, 150, 50);
+    // 用lv_siyuanti_16字体显示按钮字体确认下载
+    lv_obj_set_style_text_font(label, &lv_siyuanti_16, 0);
+    lv_label_set_text(label, "确认下载");
+    lv_obj_add_event_cb(confirm_btn, confirm_download_cb, LV_EVENT_CLICKED, NULL);
+
+LV_FONT_DECLARE(lv_siyuanti_16);
