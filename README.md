@@ -2,10 +2,14 @@
 基于gec6818开发板做的第二阶段项目，项目为：基于Linux的UU网盘文件传输系统，分客户端和服务器，客户端功能：登录，注册，注销，文件上传、下载，开发板目录查看，天气显示，视频播放，音频播放；服务器功能：接收客户端发送的请求，对登录，注册，注销，文件上传、下载，天气数据的操作
 
 lvgl版本：8.2
+
+客户端文件:lv_port_linux_frame_buffer-release-v8.2
+
+服务器文件:register_login
  
 项目运行
 
-服务器：执行make，不要make clean,如果make clean后make出现bug可自行修复，修复不了代码，可重新再下载一份代码，重新开始
+服务器：执行make，也可以make clean后make,如果make clean后make出现bug可自行修复，修复不了代码，可重新再下载一份代码，重新开始
 
 客户端：
 
@@ -21,4 +25,4 @@ lvgl版本：8.2
 
 5.视频.avi要挂载到开发板的/IOT/video/上:cp /mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/my_lvgl_test/res/1.avi /IOT/video/
 
-5.执行make，不要make clean,如果make clean后make出现bug可自行修复，修复不了代码，可重新再下载一份代码，重新配置
+5.执行make，也可以make clean后make,如果make clean后make出现bug可自行修复，修复不了代码，可重新再下载一份代码，重新配置
