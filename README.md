@@ -9,6 +9,8 @@ lvgl版本：8.2
  
 项目运行
 
+先运行服务器后运行客户端
+
 服务器：执行make，也可以make clean后make,如果make clean后make出现bug可自行修复，修复不了代码，可重新再下载一份代码，重新开始
 
 客户端：
