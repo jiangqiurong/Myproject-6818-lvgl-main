@@ -60,7 +60,7 @@ P_DVI Show_Main_Page()
     lv_obj_set_style_text_font(label2, &lv_siyuanti_16, LV_STATE_DEFAULT);
     lv_label_set_long_mode(label2, LV_LABEL_LONG_SCROLL_CIRCULAR); /*Circular scroll*/
     lv_obj_set_width(label2, 300);
-    lv_label_set_text(label2, "基于LINUX的UU网盘文件传输系统");
+    lv_label_set_text(label2, "基于LINUX的UU网盘文件传输系统\n作者:@2426-27江秋荣");
     lv_obj_set_pos(label2, 500, 50);
 
     // 设计"注册"按钮
