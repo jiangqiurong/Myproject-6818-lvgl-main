@@ -22,7 +22,7 @@ LV_FONT_DECLARE(lv_siyuanti_16);
     "S:/mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/my_lvgl_test/res/1.jpg" // 首页图片
 
 #define Log_Out_Page_IMG                                                                                               \
-    "S:/mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/my_lvgl_test/res/3.jpg"
+    "S:/mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/my_lvgl_test/res/1.jpg"
 
 int client_socket;                      // 套接字全局变量，用于在按钮回调中发送数据到服务器
 lv_obj_t * previous_screen      = NULL; // 保存前一个页面
