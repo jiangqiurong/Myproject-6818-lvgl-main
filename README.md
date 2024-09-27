@@ -12,6 +12,7 @@ lvgl版本：8.2
 1.修改图片的路径以及连接服务器的ip，vscode可使用Ctrl+f快速替换路径
 
 2.把liblvgl.so挂载到开发板的/lib目录下:cp /mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/liblvgl.so /lib/
+
 ！！！注：/mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/为我的共享路径，每个人的共享路径可能不同
 
 3.把mplayer挂载到开发板的/usr/bin/上  :cp /mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/mplayer /usr/bin/
