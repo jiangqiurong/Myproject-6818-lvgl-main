@@ -525,11 +525,11 @@ void document_interface()
     lv_obj_set_size(btn_back, 40, 40);
     lv_obj_add_event_cb(btn_back, Back_btn3, LV_EVENT_RELEASED, btn_back);
 
-    lv_obj_t * img1 = lv_img_create(cont1);
-    lv_img_set_src(
-        img1, "S:/mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/my_lvgl_test/res/3.jpg");
-    lv_obj_set_pos(img1, 0, 0);
-    lv_obj_set_size(img1, 750, 450);
+    // lv_obj_t * img1 = lv_img_create(cont1);
+    // lv_img_set_src(
+    //     img1, "S:/mnt/nfs/myproject-6818-lvgl-main/lv_port_linux_frame_buffer-release-v8.2/my_lvgl_test/res/3.jpg");
+    // lv_obj_set_pos(img1, 0, 0);
+    // lv_obj_set_size(img1, 750, 450);
 
     // 添加上传按钮
     lv_obj_t * upload_btn = lv_btn_create(cont1);
